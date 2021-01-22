@@ -9,9 +9,7 @@ const AddTodo = (props) => {
             <button onClick={() => {
                 props.addFn(userInput)
                 setUserInput('')
-            }}>
-                Submit
-            </button>
+            }}>Submit</button>
         </div>
     )
 }
